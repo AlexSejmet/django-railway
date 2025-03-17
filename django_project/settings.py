@@ -130,3 +130,6 @@ STATICFILES_DIRS =[
     os.path.join(BASE_DIR, 'blog/static')
 ]
 
+ALLOWED_HOSTS = ['localhost','web-production-2d3c.up.railway.app']
+
+#ALLOWED_HOSTS = ['*']
