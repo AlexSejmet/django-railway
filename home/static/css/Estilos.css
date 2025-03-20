@@ -1,0 +1,19 @@
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+footer h3 {
+    text-align: center;
+}
+
