@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
     'blog',
-    'home'
+    'home',
+    'tasks',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -146,7 +148,7 @@ STORAGES = {
 }
 
 
-ALLOWED_HOSTS = ['localhost','web-production-2d3c.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','web-production-2d3c.up.railway.app']
 
 #ALLOWED_HOSTS = ['*']
 
